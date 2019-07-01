@@ -1,0 +1,15 @@
+<aiml version="1.0">
+
+<!-- This category works with the alice AIML Set -->
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
+
+<!-- Load alice AIML set -->
+<learn>scripts/alice/red*.aiml</learn>
+<learn>scripts/alice/pred*.aiml</learn>
+<learn>scripts/alice/*.aiml</learn>
+</template>
+</category>
+
+</aiml>
